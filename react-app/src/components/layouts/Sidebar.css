@@ -1,0 +1,87 @@
+/* Sidebar.css */
+.sidebar {
+  background-color: #333;
+  width: 196px;
+  height: 100vh;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 10px;
+}
+
+.sidebar-menu li a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sidebar-menu li a:hover {
+  background-color: #555;
+}
+
+.sidebar-menu li a i {
+  margin-right: 10px;
+}
+
+.sidebar-submenu-toggle {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sidebar-submenu-toggle:hover {
+  background-color: #555;
+}
+
+.sidebar-submenu-toggle .rotate-icon {
+  margin-left: auto;
+  transform: rotate(90deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-submenu {
+  list-style: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.sidebar-submenu li {
+  margin-bottom: 5px;
+}
+
+.sidebar-submenu li a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sidebar-submenu-toggle {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sidebar-submenu-toggle:hover {
+  background-color: #555;
+}
+
+.sidebar-submenu-toggle .rotate-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-submenu-toggle.rotate-icon .fas.fa-chevron-right {
+  transform: rotate(90deg);
+  color: red;
+}

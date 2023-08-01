@@ -1,0 +1,63 @@
+/* SendMail.css */
+
+.send-mail {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-mail h1 {
+  margin-bottom: 20px;
+}
+
+.send-mail form {
+  margin-bottom: 20px;
+}
+
+.send-mail form .form-group {
+  margin-bottom: 20px;
+}
+
+.send-mail form .form-label {
+  font-weight: bold;
+}
+
+.send-mail form .form-control {
+  width: 100%;
+}
+
+.send-mail form .btn-primary {
+  width: 100%;
+}
+
+.send-mail .recipients-list {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.send-mail .recipients-list div {
+  margin-bottom: 5px;
+}
+
+.send-mail form #attachment {
+  margin-top: 10px;
+}
+
+.send-mail form #attachment label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.send-mail form .btn-secondary {
+  width: 100%;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.send-mail form .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
