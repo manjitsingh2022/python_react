@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Template</title>
+    <style type="text/css">
+        body {
+            background-color: #f0f0f0; /* Light gray background color for the body */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007bff; /* Blue header background color */
+            padding: 20px;
+            text-align: center;
+            color: #ffffff; /* White text color for the header */
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff; /* White background color for the main content */
+            border-radius: 5px;
+        }
+        .content {
+            display: table;
+            width: 100%;
+        }
+        .left {
+            width: 40%;
+            padding-right: 20px;
+            vertical-align: top;
+        }
+        .right {
+            width: 60%;
+            vertical-align: top;
+        }
+        .footer {
+            background-color: #28a745; /* Green footer background color */
+            padding: 10px;
+            text-align: center;
+            color: #ffffff; /* White text color for the footer */
+        }
+        .card {
+            background-color: #dc3545; /* Red card background color */
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: #ffffff; /* White text color for the card content */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Email Header</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="left">
+                <!-- You can add any content or left-aligned image here if needed -->
+                <!-- To use the Unsplash image, use the img tag with the Unsplash URL -->
+                <img src="https://source.unsplash.com/570x230/" alt="Unsplash Image">
+            </div>
+            <div class="right">
+                <div class="card">
+                    <h1>Email Content:</h1>
+                    <p>{{ message }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Email Footer</p>
+    </div>
+</body>
+</html>
